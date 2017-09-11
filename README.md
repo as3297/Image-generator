@@ -4,7 +4,8 @@
 
 Functions include elastic transform and MNIST mask overlay.
 To use this module instead of Keras "image.py" you need to download this file into your working folder and import `ImageDataGenerator` class from new `image.py` module:
--from image import ImageDataGenerator
+
+`from image import ImageDataGenerator`
 
 
 To use elastic transform and MNIST mask overlay functions for image augmentation you need to indicate `elastic_RGB` and `MNIST_aug` parameters:
