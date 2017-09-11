@@ -14,7 +14,7 @@ train_datagen = ImageDataGenerator(MNIST_aug=['./path/margins', [2,2],[50,150,25
 
 MNIST_aug parameters:
 
-  `MNIST_overlay(margins_dirpath,ls_pieces,mask_transparency,data_format='channels_last')`
+  `MNIST_overlay(margins_dirpath,ls_pieces,mask_transparency,data_format='channels_last')`:
   
     '''
     
@@ -31,13 +31,18 @@ MNIST_aug parameters:
     '''
     
     
-  elastic_transform_RGB(alpha, sigma, data_format='channels_last', random_state=None):
+  `elastic_transform_RGB(alpha, sigma, data_format='channels_last', random_state=None)`:
+  
     """Elastic deformation of images as described in [Simard2003]_.
     .. [Simard2003] Simard, Steinkraus and Platt, "Best Practices for
        Convolutional Neural Networks applied to Visual Document Analysis", in
        Proc. of the International Conference on Document Analysis and
        Recognition, 2003.
+       
        Works only for "channel_last" data format, 
+       
        For original characters size 60-100 pixels use parameters [alpha,sigma]=[4,1.9]  
+       
        Elastic transform RGB is modernized version of elastic transform taken from [link](https://gist.github.com/erniejunior/601cdf56d2b424757de5)
+       
     """
