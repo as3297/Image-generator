@@ -8,6 +8,7 @@ To use this module instead of Keras "image.py" you need to download this file in
 
 
 To use elastic transform and MNIST mask overlay functions for image augmentation you need to indicate `elastic_RGB` and `MNIST_aug` parameters:
+
 train_datagen = ImageDataGenerator(MNIST_aug=['./path/margins', [2,2],[50,150,255]],elastic_RGB=[4,1.6])
 
 
