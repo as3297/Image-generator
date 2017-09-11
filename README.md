@@ -13,7 +13,7 @@ train_datagen = ImageDataGenerator(MNIST_aug=['./path/margins', [2,2],[50,150,25
 
 MNIST_aug parameters:
 
-  MNIST_overlay(margins_dirpath,ls_pieces,mask_transparency,data_format='channels_last')
+  `MNIST_overlay(margins_dirpath,ls_pieces,mask_transparency,data_format='channels_last')`
   
     '''
     
