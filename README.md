@@ -22,6 +22,6 @@ MNIST_aug parameters:
        Proc. of the International Conference on Document Analysis and
        Recognition, 2003.
        Works only for "channel_last" data format, 
-       For original characters size 60-100 pixels use parameters [alpha,sigma]=[4,1.9]
+       For original characters size 60-100 pixels use parameters [alpha,sigma]=[4,1.9]  
        Elastic transform RGB is modernized version of elastic transform taken from https://gist.github.com/erniejunior/601cdf56d2b424757de5
     """
